@@ -18,8 +18,10 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
-.country-list{
+.country-list,
+.country-info{
   list-style: none;
+  margin-left: 20;
 }
 .country-list__item {
   display: flex;
@@ -27,7 +29,14 @@ body {
 .country-list__item:not(:last-child) {
   margin-bottom: 30px;
 }
-.country-list__item-text{
+.country-list__item-name{
   font-size: 24px;
   margin-left: 20px;
+}
+.country-info__item-name{
+  font-size: 36px;
+}
+.country-info__item-text{
+  font-size: 24px;
+  font-weight: 500;
 }
